@@ -22,7 +22,7 @@
     .
   </p>
 
-## Usage
+## Uso
 
 1. Importe Medusa para o seu projeto ao colocar no topo do documento:
 
