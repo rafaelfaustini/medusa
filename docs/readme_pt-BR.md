@@ -49,6 +49,6 @@ O método filtra um texto contra SQL Injection/XSS
 | content   | O texto a ser filtrado                                            | Qualquer string        |
 | flag      | Define se o filtro a ser executado será para XSS ou SQL Injection | 0 para XSS, 1 para SQL |
 
-## Contribute
+## Contribua
 
 É fato que segurança necessita de atualizações frequentes para novas técnicas, sinta-se livre para escrever issues e fazer pull requests.
