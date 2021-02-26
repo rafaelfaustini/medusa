@@ -23,6 +23,26 @@
     .
   </p>
 
+## Usage
+1. Import Medusa to your project by putting in the top of the document:
+```asp
+<!--#include file="Medusa.asp"-->
+```
+2. Instantiate Medusa's class:
+```asp
+Set medusa = new Medusa
+```
+3. Methods:
+```asp
+ medusa.filter(content, flag)
+```
+The methods filters a text agaisn't SQL Injection/XSS
+
+| Parameter | Description                                                           | Expected             |
+|-----------|-----------------------------------------------------------------------|----------------------|
+| content   | The text to be filtered                                               | Any string           |
+| flag      | Defines if the filter to be executed will be for XSS or SQL Injection | 0 for XSS, 1 for SQL |
+
 ## Contribute
 
 It is a fact that security needs fresh updates for new techniques, feel totally free to write issues and make pull requests.
